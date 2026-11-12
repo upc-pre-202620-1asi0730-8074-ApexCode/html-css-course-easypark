@@ -1,0 +1,51 @@
+<!--
+  LECCIÓN 4: Introducción a CSS
+  Objetivo: usar selectores y propiedades (color, font-family, background-color)
+  para darle estilo a "Mi Perfil Gamer".
+
+  Instrucciones:
+  1. Completa las propiedades CSS dentro de <style> donde dice [COMPLETAR].
+  2. Prueba cambiar los colores y la fuente, y observa el resultado.
+-->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mi Perfil Gamer</title>
+    <style>
+      /* 1. Selector de etiqueta: cambia la fuente y el color de fondo de toda la página */
+      body {
+        font-family: [COMPLETAR, ej. "Arial", "Verdana"];
+        background-color: [COMPLETAR, ej. "#1e1e2f"];
+        color: [COMPLETAR color de texto];
+      }
+
+      /* 2. Selector de etiqueta: dale un color distinto a tu nombre */
+      h1 {
+        color: [COMPLETAR];
+      }
+
+      /* 3. Selector de clase: crea un estilo para la lista de juegos */
+      .lista-juegos {
+        [COMPLETAR propiedad, ej. line-height]: [COMPLETAR valor];
+      }
+    </style>
+  </head>
+  <body>
+
+    <h1>PixelFox_77</h1>
+    <p>Me gusta jugar Minecraft, armar PCs y aprender a programar.</p>
+
+    <img src="https://placekitten.com/200/200" alt="Avatar de perfil gamer" width="150" />
+
+    <h2>Mis juegos favoritos</h2>
+    <ul class="lista-juegos">
+      <li>Minecraft</li>
+      <li>Stardew Valley</li>
+      <li>Rocket League</li>
+    </ul>
+
+    <p>Sígueme en: <a href="https://www.twitch.tv/">mi canal de Twitch</a></p>
+
+  </body>
+</html>
