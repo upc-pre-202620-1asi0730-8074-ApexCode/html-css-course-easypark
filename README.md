@@ -54,7 +54,7 @@ El código del curso y las actividades están disponibles en el repositorio del 
 
 ---
 
-### Lección 5 · Proyecto final: la tarjeta completa
+### Lección 5 · Proyecto final y cierre
 
 **Descripción.** Integra todo lo aprendido para terminar "Mi Perfil Gamer" en forma de tarjeta centrada en la pantalla, con bordes redondeados, sombra e imagen de perfil circular.
 
@@ -62,25 +62,9 @@ El código del curso y las actividades están disponibles en el repositorio del 
 - **Ponlo en práctica.** Completa el `justify-content`, el ancho máximo, el `border-radius` y el `box-shadow` de la tarjeta, y reemplaza todos los datos de ejemplo por los tuyos.
 - **Enlace al video.** [Ver la lección](https://youtu.be/qhP2pV9tGwI)
 
----
-
-### Lección 6 · Consejos y próximos pasos
-
-**Descripción.** Revisa los errores más comunes de un principiante (etiquetas sin cerrar, llaves `{ }` de CSS sin cerrar, atributos mal escritos), cómo revisar el código cuando algo no se ve bien, y dónde seguir aprendiendo después del curso.
-
-- **Conclusiones clave.** Si la página se ve rota, revisa primero que cada etiqueta HTML esté cerrada y cada bloque de CSS tenga su `}`. Prueba los cambios de a poco en vez de escribir todo de un tirón.
-- **Ponlo en práctica.** Provoca a propósito un error (borra una `}` de tu CSS) y observa qué pasa con el estilo de la página; luego corrígelo.
-- **Enlace al video.** [Ver la lección](https://youtu.be/qhP2pV9tGwI)
-
----
-
 ## Cómo utilizar las prácticas
 
 Abre [CodePen](https://codepen.io) y copia el código de `starter-files` de la lección que estés siguiendo. Escribe tus cambios y observa el resultado en el panel de vista previa del navegador. Compara tu resultado con el archivo correspondiente en `completed-examples`.
-
-## Para seguir practicando
-
-Cuando termines tu tarjeta, cambia la paleta de colores completa, agrega un cuarto juego o hobby a la lista, y prueba agregar un segundo enlace a otra red social. Estas pequeñas modificaciones te ayudarán a comprobar qué parte del código controla cada resultado.
 
 ## Elaboración
 
