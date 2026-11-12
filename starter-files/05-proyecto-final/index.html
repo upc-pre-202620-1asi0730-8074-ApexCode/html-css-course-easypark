@@ -1,0 +1,76 @@
+<!--
+  LECCIÓN 5: Proyecto final — la tarjeta completa
+  Objetivo: combinar todo lo aprendido para terminar tu "Mi Perfil Gamer"
+  con forma de tarjeta (card), centrada en la pantalla.
+
+  Instrucciones:
+  1. Reemplaza TODOS los datos de ejemplo por los tuyos (nombre, bio, juegos, imagen, enlace).
+  2. Completa el CSS donde dice [COMPLETAR] para que la tarjeta se vea centrada,
+     con bordes redondeados y una sombra.
+  3. Cuando termines, guárdalo en Replit (replit.com) y comparte el enlace.
+-->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mi Perfil Gamer</title>
+    <style>
+      body {
+        font-family: "Verdana", sans-serif;
+        background-color: #1e1e2f;
+        color: #f0f0f0;
+        /* 1. Centra la tarjeta horizontalmente en la pantalla */
+        display: flex;
+        justify-content: [COMPLETAR];
+        padding: 40px 20px;
+      }
+
+      /* 2. Estilo de la tarjeta: ancho máximo, bordes redondeados y sombra */
+      .tarjeta-gamer {
+        background-color: #2a2a40;
+        max-width: [COMPLETAR, ej. "320px"];
+        padding: 24px;
+        border-radius: [COMPLETAR, ej. "16px"];
+        box-shadow: [COMPLETAR, ej. "0 4px 12px rgba(0,0,0,0.4)"];
+        text-align: center;
+      }
+
+      .tarjeta-gamer img {
+        border-radius: 50%; /* imagen redonda */
+      }
+
+      h1 {
+        color: #7cf29c;
+        margin-bottom: 4px;
+      }
+
+      .lista-juegos {
+        list-style: none;
+        padding: 0;
+        line-height: 1.8;
+      }
+
+      a {
+        color: [COMPLETAR];
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="tarjeta-gamer">
+      <img src="https://placekitten.com/200/200" alt="Avatar de perfil gamer" width="100" />
+      <h1>[COMPLETAR: tu nombre o apodo]</h1>
+      <p>[COMPLETAR: tu bio corta]</p>
+
+      <h2>Mis juegos favoritos</h2>
+      <ul class="lista-juegos">
+        <li>[COMPLETAR]</li>
+        <li>[COMPLETAR]</li>
+        <li>[COMPLETAR]</li>
+      </ul>
+
+      <p><a href="[COMPLETAR URL]">[COMPLETAR texto del enlace]</a></p>
+    </div>
+
+  </body>
+</html>
